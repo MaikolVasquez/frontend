@@ -5,10 +5,10 @@ import '../../styles/About.styl'
 
 
 const About = ()=>{
-    return (<div className="general-container about-container">            
-    <h2>Academic Title</h2>
-    <p>info</p>
-    </div>)
+    return <div className="general-container about-container">            
+                <h2>.About-title</h2>
+                <p>.About-item</p>
+            </div>
 }
 
 export default About;

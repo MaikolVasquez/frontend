@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Skills from '../../components/Skills';
+import Skills from '../../containers/components/Skills';
 
 describe('<Skills />', () => {
   const skills = mount(<Skills />);

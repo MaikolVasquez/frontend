@@ -11,6 +11,7 @@ import Languages from './components/Languages';
 
 
 const Render = () =>{
+    console.log(<About />)
     return (<div className="render-container">
         <Header>
           <About />
