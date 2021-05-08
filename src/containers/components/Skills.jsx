@@ -6,9 +6,10 @@ import '../../styles/Skills.styl'
 const Skills = ()=>{
     return (
         <div className="general-container skills-container">            
-        <h2>.Skills-title</h2>
-        <p>.Skills-item</p>
-        <p>.Skills-item</p>
+        <h2 className="Skills-title">.Skills-title</h2>
+        <p className="Skills-item">.Skills-item</p>
+        <p className="Skills-item">.Skills-item</p>
+        <p className="Skills-item">.Skills-item</p>
         </div>
 
     )

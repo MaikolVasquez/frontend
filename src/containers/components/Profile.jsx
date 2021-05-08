@@ -6,8 +6,8 @@ import '../../styles/Profile.styl'
 const Profile = ()=>{
     return  (
               <div className="general-container profile-container">
-              <h2>.Profile-title</h2>
-              <p>.Profile-desc</p>
+              <h2 className="Profile-title">.Profile-title</h2>
+              <p className="Profile-desc">.Profile-desc</p>
               </div>  
             )
 }

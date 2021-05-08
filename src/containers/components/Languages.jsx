@@ -5,10 +5,10 @@ import '../../styles/Languages.styl'
 const Languages = ()=>{
     return (
         <div className="general-container languages-container">            
-            <h2>.Languages-title</h2>
-            <p>.Languages-item</p>
-            <p>.Languages-item</p>
-            <p>.Languages-item</p>
+            <h2 className="Languages-title">.Languages-title</h2>
+            <p className="Languages-item">.Languages-item</p>
+            <p className="Languages-item">.Languages-item</p>
+            <p className="Languages-item">.Languages-item</p>
         </div>
 
     )

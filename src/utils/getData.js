@@ -1,11 +1,8 @@
 
+ function getData(url) {
 
-async function getData() {
-  
-    let data = await fetch("http://localhost:3000/data")
-    res = await data.json() 
-    return await res        
+  let data = fetch(url);
+  return data.then(data=>data.json())
 }
 
-
-export default getData
+export default getData;

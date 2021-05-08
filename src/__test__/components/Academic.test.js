@@ -3,8 +3,7 @@ import { mount } from 'enzyme';
 import Academic from '../../containers/components/Academic';
 
 describe('<Academic />', () => {
-  const academic = mount(<Academic />);
-  console.log(academic.debug())
+  const academic = mount(<Academic />);  
 
   test('Academic render', () => {
     expect(academic.length).toEqual(1);

@@ -10,8 +10,7 @@ import Interest from './components/Interest';
 import Languages from './components/Languages';
 
 
-const Render = () =>{
-    console.log(<About />)
+const Render = () =>{    
     return (<div className="render-container">
         <Header>
           <About />

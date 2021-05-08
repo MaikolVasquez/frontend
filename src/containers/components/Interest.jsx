@@ -7,10 +7,10 @@ import '../../styles/Interest.styl'
 const Interest = ()=>{
     return (
         <div className="general-container interest-container">            
-            <h2>.Iterest-title</h2>
-            <p>.Interest-item</p>
-            <p>.Interest-item</p>
-            <p>.Interest-item</p>
+            <h2 className="Interest-title">.Iterest-title</h2>
+            <p className="Interest-item">.Interest-item</p>
+            <p className="Interest-item">.Interest-item</p>
+            <p className="Interest-item">.Interest-item</p>
         </div>
 
     )

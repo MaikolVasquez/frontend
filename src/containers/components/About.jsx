@@ -6,8 +6,10 @@ import '../../styles/About.styl'
 
 const About = ()=>{
     return <div className="general-container about-container">            
-                <h2>.About-title</h2>
-                <p>.About-item</p>
+                <h2 className="About-title">.About-title</h2>
+                <p className="About-item">.About-item</p>
+                <p className="About-item">.About-item</p>
+                <p className="About-item">.About-item</p>
             </div>
 }
 
