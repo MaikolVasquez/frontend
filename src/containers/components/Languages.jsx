@@ -1,13 +1,15 @@
 import React from "react";
-
-
+import '../../styles/General.styl'
+import '../../styles/Languages.styl'
 
 const Languages = ()=>{
     return (
-        <>            
-            <h2>Experience Title</h2>
-            <p>info</p>
-        </>
+        <div className="general-container languages-container">            
+            <h2>.Languages-title</h2>
+            <p>.Languages-item</p>
+            <p>.Languages-item</p>
+            <p>.Languages-item</p>
+        </div>
 
     )
 }

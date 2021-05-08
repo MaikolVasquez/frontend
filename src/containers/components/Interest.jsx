@@ -1,13 +1,17 @@
 import React from "react";
+import '../../styles/General.styl'
+import '../../styles/Interest.styl'
 
 
 
 const Interest = ()=>{
     return (
-        <>            
-            <h2>Experience Title</h2>
-            <p>info</p>
-        </>
+        <div className="general-container interest-container">            
+            <h2>.Iterest-title</h2>
+            <p>.Interest-item</p>
+            <p>.Interest-item</p>
+            <p>.Interest-item</p>
+        </div>
 
     )
 }
