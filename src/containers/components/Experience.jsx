@@ -2,6 +2,7 @@ import React from "react";
 import {useState,useEffect} from 'react'
 import '../../styles/General.styl'
 import '../../styles/Experience.styl'
+import 'regenerator-runtime/runtime'
 
 
 const Experience = ()=>{
@@ -19,8 +20,6 @@ const Experience = ()=>{
       setLoading(false)
 }
 if(loading) return <div /> 
-
-
 
     return  (
                 <div className="general-container experience-container">            

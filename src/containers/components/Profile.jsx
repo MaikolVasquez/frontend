@@ -2,6 +2,7 @@ import React from "react";
 import {useState,useEffect} from 'react'
 import '../../styles/General.styl'
 import '../../styles/Profile.styl'
+import 'regenerator-runtime/runtime'
 
 
 const Profile = ()=>{

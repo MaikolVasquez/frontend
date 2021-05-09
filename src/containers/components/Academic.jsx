@@ -2,6 +2,7 @@ import React from "react";
 import {useState,useEffect} from 'react'
 import '../../styles/General.styl'
 import '../../styles/Academic.styl'
+import 'regenerator-runtime/runtime'
 
 
 
@@ -21,10 +22,10 @@ const Academic = ()=>{
 }
 if(loading) return <div /> 
 
-
     return  (
                 <div className="general-container academic-container">            
-                <h2 className="Academic-title">{datastore.Academic[0].degree}</h2>
+                <h2 className="Academic-title">Academic</h2>
+                <p className="Academic-item">{datastore.Academic[0].degree}</p>
                 <p className="Academic-item">{datastore.Academic[0].startDate}</p>
                 <p className="Academic-item">{datastore.Academic[0].endDate}</p>
                 <p className="Academic-item">{datastore.Academic[0].institution}</p>

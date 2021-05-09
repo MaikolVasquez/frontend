@@ -2,6 +2,7 @@ import React from "react";
 import {useState,useEffect} from 'react'
 import '../../styles/General.styl'
 import '../../styles/Interest.styl'
+import 'regenerator-runtime/runtime'
 
 
 
