@@ -1,16 +1,33 @@
 import React from "react";
+import {useState,useEffect} from 'react'
 import '../../styles/General.styl'
 import '../../styles/Academic.styl'
 
 
 
 const Academic = ()=>{
+    const [datastore,setData] = useState([])
+    const [loading, setLoading] = useState(true)
+    useEffect(()=>{
+        getInfo()
+    },[])
+
+
+  const getInfo = async ()=>{
+      const data = await fetch("http://localhost:3000/data")
+      const dataJson = await data.json()      
+      setData(dataJson)
+      setLoading(false)
+}
+if(loading) return <div /> 
+
+
     return  (
                 <div className="general-container academic-container">            
-                <h2 className="Academic-title">.Academic-title</h2>
-                <p className="Academic-item">.Academic-item</p>
-                <p className="Academic-item">.Academic-item</p>
-                <p className="Academic-item">.Academic-item</p>
+                <h2 className="Academic-title">{datastore.Academic[0].degree}</h2>
+                <p className="Academic-item">{datastore.Academic[0].startDate}</p>
+                <p className="Academic-item">{datastore.Academic[0].endDate}</p>
+                <p className="Academic-item">{datastore.Academic[0].institution}</p>
                 </div>
 
             )
