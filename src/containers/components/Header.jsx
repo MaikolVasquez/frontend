@@ -17,7 +17,7 @@ const getInfo = async ()=>{
 }
     return  (
                 <div className="header-container">
-                <img src="" alt="" />
+                <img src="https://i.postimg.cc/fTK33gbC/Whats-App-Image-2021-05-09-at-9-48-16-AM.jpg" alt="avatar" />
                 <h2 className="Header-title">{data.name}</h2>
                     <p className="Header-item job-title-header">{data.profession}</p>
                     <p className="Header-item phone-header">Phone: {data.phone}</p>

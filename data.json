@@ -1,97 +1,97 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Maikol Esteban Vasquez Novoa",
+    "profession": "Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "maikvas666@gmail.com",
+    "website": "https://maikolvasquez.github.io/Portafolio/",
+    "phone": "+57 3125590047",
+    "avatar": "https://postimg.cc/3dkrV1m0",
+    "Profile": "Programmer, Supervising Technologist of Electrical Networks; certified in JavaScript,ECMAScript 6, HTML, CSS, Responsive Design, SQL, Git, React JS, Python and C #.Knowledge in hardware assembly and maintenance with ease to learn, teach and lead.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Feb 2021",
+        "description": "Escuela de desarrollo FrontEnd completo con JavaScript y HTML5",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
       },
       {
         "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "description": "Bases de la programacion con lenguaje Python",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Basico de Python"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Tecnologo Supervisor de redes electricas",
+        "description": " Bases de la ingenieria electrica metodos y analisis tecnico, bases de electronica",
+        "endDate": "Dec 2012",
+        "institution": "SENA",
+        "startDate": "Jan 2010"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "",
+        "description": "",
+        "endDate": "",
+        "institution": "",
+        "startDate": ""
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Identidad Tecnologies",
+        "endDate": "Jan 2021",
+        "jobDescription": "Analisis de datos de llamadas y mensajes de texto por internet, atencion al cliente en Ingles",
+        "jobTitle": "Customer Service Analist",
+        "startDate": "Sep 2019"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Teleperformance",
+        "endDate": "Aug 2019",
+        "jobDescription": "Atencion al cliente y servicio tecnico por telefono.",
+        "jobTitle": "Call center agent",
+        "startDate": "May 2018"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "60%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30%"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Python",
+      "BackEnd",
+      "Machine Learning"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "Nativo%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%-B1"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/MaikolEstebanVasquezNovoa"
       },
       {
         "name": "twitter",
@@ -99,11 +99,11 @@
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/MaikolVasquez"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/maikol-esteban-vasquez-novoa-b9757715b/"
       }
     ]
   }
