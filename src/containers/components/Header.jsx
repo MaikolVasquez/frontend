@@ -20,10 +20,10 @@ const getInfo = async ()=>{
                 <img src="" alt="" />
                 <h2 className="Header-title">{data.name}</h2>
                     <p className="Header-item job-title-header">{data.profession}</p>
-                    <p className="Header-item phone-header">{data.phone}</p>
-                    <p className="Header-item email-header">{data.email}</p>                        
-                    <p className="Header-item website-header">{data.website}</p> 
-                    <p className="Header-item adress-header">{data.address}</p> 
+                    <p className="Header-item phone-header">Phone: {data.phone}</p>
+                    <p className="Header-item email-header">Email: {data.email}</p>                        
+                    <p className="Header-item website-header">Website: {data.website}</p> 
+                    <p className="Header-item adress-header">Address: {data.address}</p> 
                 </div>
 
 

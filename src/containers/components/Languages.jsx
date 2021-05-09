@@ -2,6 +2,7 @@ import React from "react";
 import {useState,useEffect} from 'react'
 import '../../styles/General.styl'
 import '../../styles/Languages.styl'
+import 'regenerator-runtime/runtime'
 
 const Languages = ()=>{
     const [datastore,setData] = useState([])
@@ -17,13 +18,26 @@ const Languages = ()=>{
       setData(dataJson)
       setLoading(false)
 }
-if(loading) return <div /> 
+if(loading) {
+    
+    return(
+        <div className="general-container languages-container">            
+            <h2 className="Languages-title">Languages</h2>
+            <p className="Languages-item">Loading...</p>
+            <p className="Languages-item">Loading...</p>
+            <p className="Languages-item">Loading...</p>
+        </div>
+    )
+
+}
+
+
+
     return (
         <div className="general-container languages-container">            
             <h2 className="Languages-title">Languages</h2>
-            <p className="Languages-item">{datastore.languages[0].name}</p>
-            <p className="Languages-item">{datastore.languages[1].name}</p>
-            <p className="Languages-item">another lenguage</p>
+            <p className="Languages-item">{datastore.languages[0].name}: {datastore.languages[0].percentage}</p>            
+            <p className="Languages-item">{datastore.languages[1].name}: {datastore.languages[1].percentage}</p>                        
         </div>
 
     )

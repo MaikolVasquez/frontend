@@ -19,15 +19,27 @@ const Skills = ()=>{
       setData(dataJson)
       setLoading(false)
 }
-if(loading) return <div /> 
+if(loading) {
+    
+    return(
+        <div className="general-container skills-container">            
+        <h2 className="Skills-title">Skills</h2>
+        <p className="Skills-item">Loading...</p>
+        <p className="Skills-item">Loading...</p>
+        <p className="Skills-item">Loading...</p>
+        <p className="Skills-item">Loading...</p>
+        </div>
+    )
+
+} 
 
     return (
         <div className="general-container skills-container">            
         <h2 className="Skills-title">Skills</h2>
-        <p className="Skills-item">{datastore.skills[0].name}</p>
-        <p className="Skills-item">{datastore.skills[1].name}</p>
-        <p className="Skills-item">{datastore.skills[2].name}</p>
-        <p className="Skills-item">{datastore.skills[3].name}</p>
+        <p className="Skills-item">{datastore.skills[0].name}: {datastore.skills[0].percentage}</p>
+        <p className="Skills-item">{datastore.skills[1].name}: {datastore.skills[1].percentage}</p>
+        <p className="Skills-item">{datastore.skills[2].name}: {datastore.skills[2].percentage}</p>
+        <p className="Skills-item">{datastore.skills[3].name}: {datastore.skills[3].percentage}</p>
         </div>
 
     )

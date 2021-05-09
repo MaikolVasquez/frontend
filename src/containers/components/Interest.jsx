@@ -20,7 +20,19 @@ const Interest = ()=>{
       setData(dataJson)
       setLoading(false)
 }
-if(loading) return <div /> 
+if(loading) {
+    return (
+        <div className="general-container interest-container">            
+            <h2 className="Interest-title">Interest</h2>
+            <p className="Interest-item">Loading...</p>
+            <p className="Interest-item">Loading...</p>
+            <p className="Interest-item">Loading...</p>
+            <p className="Interest-item">Loading...</p>
+        </div>
+
+    )    
+
+}
 
     return (
         <div className="general-container interest-container">            

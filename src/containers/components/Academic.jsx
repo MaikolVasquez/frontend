@@ -20,15 +20,27 @@ const Academic = ()=>{
       setData(dataJson)
       setLoading(false)
 }
-if(loading) return <div /> 
+if(loading) {
+    return (
+            <div className="general-container academic-container">              
+            <h2 className="Academic-title">Academic</h2>
+            <p className="Academic-item">Degree: Loading...</p>
+            <p className="Academic-item">Start Date: Loading...</p>
+            <p className="Academic-item">End Date: Loading...</p>
+            <p className="Academic-item">Institution: Loading...</p>
+            </div>
+    )
+
+}
+
 
     return  (
                 <div className="general-container academic-container">            
                 <h2 className="Academic-title">Academic</h2>
-                <p className="Academic-item">{datastore.Academic[0].degree}</p>
-                <p className="Academic-item">{datastore.Academic[0].startDate}</p>
-                <p className="Academic-item">{datastore.Academic[0].endDate}</p>
-                <p className="Academic-item">{datastore.Academic[0].institution}</p>
+                <p className="Academic-item">Degree: {datastore.Academic[0].degree}</p>
+                <p className="Academic-item">Start Date: {datastore.Academic[0].startDate}</p>
+                <p className="Academic-item">End Date: {datastore.Academic[0].endDate}</p>
+                <p className="Academic-item">Institution: {datastore.Academic[0].institution}</p>
                 </div>
 
             )

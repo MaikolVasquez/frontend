@@ -19,15 +19,28 @@ const Experience = ()=>{
       setData(dataJson)
       setLoading(false)
 }
-if(loading) return <div /> 
+if(loading) {
+return (
+    <div className="general-container experience-container">            
+    <h2 className="Experience-title">Loading...</h2>
+    <p className="Experience-item experience-item1">Loading...</p>
+    <p className="Experience-item experience-item2">Loading...</p>
+    <p className="Experience-item experience-item3">Loading...</p>
+    <p className="Experience-item experience-item4">Loading...</p>
+    </div> 
+)    
+
+
+}
 
     return  (
                 <div className="general-container experience-container">            
-                    <h2 className="Experience-title">{datastore.experience[0].jobTitle}</h2>
-                    <p className="Experience-item experience-item1">{datastore.experience[0].company}</p>
-                    <p className="Experience-item experience-item2">{datastore.experience[0].startDate}</p>
-                    <p className="Experience-item experience-item3">{datastore.experience[0].endDate}</p>
-                    <p className="Experience-item experience-item4">{datastore.experience[0].jobDescription}</p>
+                    <h2 className="Experience-title">Experience</h2>
+                    <p className="Experience-item experience-item1">Position: {datastore.experience[0].jobTitle}</p>
+                    <p className="Experience-item experience-item1">Company: {datastore.experience[0].company}</p>
+                    <p className="Experience-item experience-item2">Start Date: {datastore.experience[0].startDate}</p>
+                    <p className="Experience-item experience-item3">End Date: {datastore.experience[0].endDate}</p>
+                    <p className="Experience-item experience-item4">Description: {datastore.experience[0].jobDescription}</p>
                 </div>
 
             )
